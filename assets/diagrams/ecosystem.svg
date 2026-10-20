@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1010" viewBox="0 0 1600 1010" role="img" aria-labelledby="title desc">
+  <title id="title">The EBC ecosystem: five repositories and their responsibilities</title>
+  <desc id="desc">EBC provides web UI and shared APIs. PropCopilot and WhatsApp Blast are desktop clients. EBC Admin handles operations and official portal automation. The historical Python service handles document processing. EBC connects to PostgreSQL, object storage, model providers, payments and email.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#58776d"/></marker></defs>
+  <rect width="1600" height="1010" fill="#f5f2eb"/>
+  <text x="60" y="65" font-family="Georgia, serif" font-size="38" fill="#202725">One ecosystem. Clear responsibilities.</text>
+  <text x="62" y="105" font-family="Segoe UI, sans-serif" font-size="20" fill="#5c6b63">Conceptual architecture / reviewed source snapshot, October 2026</text>
+  <g stroke="#58776d" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M450 264H560"/>
+    <path d="M450 490H510V342H560"/>
+    <path d="M1145 263H1040"/>
+    <path d="M805 398V552"/>
+    <path d="M1040 351H1100V605H1145"/>
+    <path d="M1540 277H1570V850H1540"/>
+  </g>
+  <path d="M450 735H525V365H560" stroke="#939e96" stroke-width="3" stroke-dasharray="9 8" fill="none" marker-end="url(#arrow)"/>
+  <g font-family="Segoe UI, sans-serif">
+    <g fill="#ffffff" stroke="#cdd6ce" stroke-width="2">
+      <rect x="60" y="183" width="390" height="164" rx="18"/>
+      <rect x="60" y="420" width="390" height="174" rx="18"/>
+      <rect x="60" y="674" width="390" height="180" rx="18"/>
+      <rect x="1145" y="183" width="395" height="173" rx="18"/>
+      <rect x="560" y="553" width="480" height="190" rx="18"/>
+      <rect x="1145" y="553" width="395" height="170" rx="18"/>
+      <rect x="1145" y="796" width="395" height="114" rx="18"/>
+    </g>
+    <rect x="560" y="183" width="480" height="215" rx="20" fill="#dfe8df" stroke="#759181" stroke-width="2"/>
+    <g fill="#253b32" font-size="27">
+      <text x="87" y="229">PropCopilot</text><text x="87" y="468">WhatsApp Blast</text><text x="87" y="723">EBC Python</text>
+      <text x="590" y="231">EstateBoostCopilot</text><text x="1175" y="230">EBC Admin</text>
+      <text x="590" y="602">Shared persistent data</text><text x="1175" y="600">External services</text><text x="1175" y="843">Official LHDN portal</text>
+    </g>
+    <g fill="#57675e" font-size="21">
+      <text x="87" y="268">Electron / JavaScript / local state</text><text x="87" y="306">Agent tools and property workflows</text>
+      <text x="87" y="509">Electron / WhatsApp Web sessions</text><text x="87" y="550">Imports, campaigns, desktop release</text>
+      <text x="87" y="765">Flask / Python / Gunicorn / Docker</text><text x="87" y="805">Earlier document-processing service</text>
+      <text x="590" y="276">Next.js / React / TypeScript</text><text x="590" y="318">Customer web + authenticated APIs</text><text x="590" y="361">Accounts, billing, AI, support, records</text>
+      <text x="1175" y="273">Next.js / Puppeteer / operator UI</text><text x="1175" y="315">Casework, moderation, human support</text>
+      <text x="590" y="647">PostgreSQL + Prisma</text><text x="590" y="686">Vercel Blob / Redis-KV integration</text>
+      <text x="1175" y="644">AI providers / Billplz / SMTP</text><text x="1175" y="683">Google OAuth + Gmail integration</text>
+      <text x="1175" y="881">Browser-based operational workflow</text>
+    </g>
+    <g fill="#62796e" font-size="17">
+      <text x="470" y="244">API</text><text x="463" y="469">API</text><text x="1060" y="243">API</text><text x="824" y="482">Data</text>
+      <text x="62" y="949">Solid arrows: current integration responsibilities. Dashed: earlier Python processing path.</text>
+      <text x="62" y="978">This diagram explains ownership; it is not a live topology, a security audit, or a public API contract.</text>
+    </g>
+  </g>
+</svg>

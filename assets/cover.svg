@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="610" viewBox="0 0 1600 610" role="img" aria-labelledby="title desc">
+  <title id="title">EBC: a connected software ecosystem, by Henry Teo</title>
+  <desc id="desc">An engineering portfolio covering web software, desktop products, Python document processing, AI, payments, and operations. Five repositories, development since 2023, 1,144 EBC commits, and 224 deployments shown in the supplied activity screenshot.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#e8e4dc" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1600" height="610" fill="#f5f2eb"/>
+  <rect x="1090" width="510" height="610" fill="url(#grid)"/>
+  <rect x="68" y="65" width="36" height="5" fill="#3c6e68"/>
+  <text x="121" y="73" font-family="Segoe UI, sans-serif" font-size="18" letter-spacing="3" fill="#4e5c5a">ACCELER / ENGINEERING PORTFOLIO</text>
+  <text x="66" y="198" font-family="Georgia, serif" font-size="115" fill="#202725">EBC</text>
+  <text x="71" y="250" font-family="Segoe UI, sans-serif" font-size="24" fill="#55615e">ESTATE BOOST COPILOT</text>
+  <text x="68" y="322" font-family="Georgia, serif" font-size="48" fill="#202725">From a tenancy PDF</text>
+  <text x="68" y="379" font-family="Georgia, serif" font-size="48" fill="#202725">to a connected business.</text>
+  <text x="71" y="427" font-family="Segoe UI, sans-serif" font-size="22" fill="#52615e">Web. Desktop. Python. AI. Payments. Operations.</text>
+  <path d="M1130 180V460M1130 205H1470M1130 285H1470M1130 365H1470M1130 445H1470" stroke="#c5d1c9" stroke-width="2" fill="none"/>
+  <g font-family="Segoe UI, sans-serif" font-size="22" fill="#253732">
+    <rect x="1108" y="155" width="400" height="75" rx="16" fill="#e0e8df"/><text x="1130" y="201">EBC / Cloud + customer web</text>
+    <rect x="1178" y="250" width="330" height="65" rx="14" fill="#ffffff" stroke="#d2d7cf"/><text x="1200" y="292">Admin / Daily operations</text>
+    <rect x="1178" y="335" width="330" height="65" rx="14" fill="#ffffff" stroke="#d2d7cf"/><text x="1200" y="377">Desktop / Working tools</text>
+    <rect x="1178" y="420" width="330" height="65" rx="14" fill="#ffffff" stroke="#d2d7cf"/><text x="1200" y="462">Python / Document AI</text>
+  </g>
+  <path d="M70 479H1030" stroke="#d6d5cb"/>
+  <g font-family="Segoe UI, sans-serif" fill="#283b35">
+    <text x="71" y="527" font-size="32">2023-2026</text><text x="71" y="553" font-size="15" fill="#5f6b63">RECORDED DEVELOPMENT</text>
+    <text x="364" y="527" font-size="32">5 repositories</text><text x="365" y="553" font-size="15" fill="#5f6b63">ONE PRODUCT ECOSYSTEM</text>
+    <text x="674" y="527" font-size="32">1,144 / 224</text><text x="675" y="553" font-size="15" fill="#5f6b63">EBC COMMITS / DEPLOYMENTS*</text>
+  </g>
+  <text x="1109" y="540" font-family="Segoe UI, sans-serif" font-size="23" fill="#202725">Henry Teo / Teo EeHern</text>
+  <text x="70" y="590" font-family="Segoe UI, sans-serif" font-size="13" fill="#68736c">*Team repository history and owner-supplied deployment screenshot. Evidence snapshot: 20 October 2026.</text>
+</svg>

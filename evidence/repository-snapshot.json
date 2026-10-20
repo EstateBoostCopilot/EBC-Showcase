@@ -1,0 +1,113 @@
+{
+  "snapshotDate": "2026-10-20",
+  "timezone": "Asia/Singapore",
+  "definitions": {
+    "reachableCommits": "git rev-list --count HEAD; includes merges and all reachable ancestry, not just first-parent main.",
+    "reachableNonMergeCommits": "git rev-list --count --no-merges HEAD.",
+    "authorDateRange": "Minimum and maximum recorded author date in git log; not independently verified release or employment dates.",
+    "commitsBefore2025": "git rev-list --count --before=2025-01-01T00:00:00+08:00 HEAD; Git commit-time filter, includes merges.",
+    "henryAuthorNameCounts": "Exact recorded author-name strings only; not identity verification, ownership percentages, or a measure of work quality.",
+    "crossRepositoryTotal": "Arithmetic sum of per-repository counts; shared ancestry, where present, is not deduplicated.",
+    "workingTreeCleanAtCollection": "Read-only git status check. Counts describe committed history, not uncommitted work."
+  },
+  "repositories": [
+    {
+      "name": "EBC",
+      "revision": "bebeb22c3960d5eddb5ec9fa65344dd47a6075d6",
+      "reachableCommits": 1144,
+      "reachableNonMergeCommits": 943,
+      "authorDateRange": {
+        "first": "2023-09-03",
+        "last": "2026-10-19"
+      },
+      "commitsBefore2025": 615,
+      "distinctRecordedAuthorNames": 12,
+      "henryAuthorNameCounts": {
+        "HenryTeo27": 589,
+        "Henry Teo": 14
+      },
+      "workingTreeCleanAtCollection": true
+    },
+    {
+      "name": "EBC-Admin",
+      "revision": "288439a17e1bfea9db1683f713454819115ba2be",
+      "reachableCommits": 280,
+      "reachableNonMergeCommits": 232,
+      "authorDateRange": {
+        "first": "2024-07-06",
+        "last": "2026-10-14"
+      },
+      "commitsBefore2025": 56,
+      "distinctRecordedAuthorNames": 10,
+      "henryAuthorNameCounts": {
+        "HenryTeo27": 137,
+        "Henry Teo": 12
+      },
+      "workingTreeCleanAtCollection": true
+    },
+    {
+      "name": "WhatsApp-Blast",
+      "revision": "4fef082858cff78e6876ae025431e60f86665a2f",
+      "reachableCommits": 81,
+      "reachableNonMergeCommits": 80,
+      "authorDateRange": {
+        "first": "2025-11-02",
+        "last": "2026-03-30"
+      },
+      "commitsBefore2025": 0,
+      "distinctRecordedAuthorNames": 3,
+      "henryAuthorNameCounts": {
+        "HenryTeo27": 76,
+        "Henry Teo": 1
+      },
+      "workingTreeCleanAtCollection": true
+    },
+    {
+      "name": "PropCopilot",
+      "revision": "3b94613c74c25355380b52ce8579f0c3d73cbe00",
+      "reachableCommits": 169,
+      "reachableNonMergeCommits": 168,
+      "authorDateRange": {
+        "first": "2026-02-06",
+        "last": "2026-10-01"
+      },
+      "commitsBefore2025": 0,
+      "distinctRecordedAuthorNames": 2,
+      "henryAuthorNameCounts": {
+        "HenryTeo27": 167,
+        "Henry Teo": 2
+      },
+      "workingTreeCleanAtCollection": false
+    },
+    {
+      "name": "EBC-Python",
+      "revision": "53d08026a97e0bd6d90f28391622ae7e8decdb72",
+      "reachableCommits": 125,
+      "reachableNonMergeCommits": 120,
+      "authorDateRange": {
+        "first": "2024-07-29",
+        "last": "2026-02-06"
+      },
+      "commitsBefore2025": 43,
+      "distinctRecordedAuthorNames": 7,
+      "henryAuthorNameCounts": {
+        "HenryTeo27": 78,
+        "Henry Teo": 3
+      },
+      "workingTreeCleanAtCollection": true
+    }
+  ],
+  "totals": {
+    "repositories": 5,
+    "commitsSummedAcrossRepositories": 1799,
+    "nonMergeCommitsSummedAcrossRepositories": 1543,
+    "pre2025CommitsSummedAcrossRepositories": 714
+  },
+  "screenshotEvidence": {
+    "path": "assets/screenshots/repository-activity.png",
+    "source": "Owner-supplied screenshot dated 2026-10-20",
+    "visibleEbcCommits": 1144,
+    "visibleDeployments": 224,
+    "limitation": "The displayed deployment total is a screenshot observation, not an independently queried live total or a count of distinct production releases."
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="730" viewBox="0 0 1600 730" role="img" aria-labelledby="title desc">
+  <title id="title">From a PDF agreement to a delivered stamping certificate</title>
+  <desc id="desc">Upload PDF to storage, extract compact JSON using AI, normalize and expand it using software rules, let the user review, collect payment, run admin operations, retrieve and deliver the certificate.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#667f70"/></marker></defs>
+  <rect width="1600" height="730" fill="#f5f2eb"/>
+  <text x="60" y="68" font-family="Georgia, serif" font-size="38" fill="#202725">A document becomes a traceable service.</text>
+  <text x="62" y="111" font-family="Segoe UI, sans-serif" font-size="21" fill="#5c6b63">AI reads the document. Software prepares the form. People review and resolve exceptions.</text>
+  <g fill="none" stroke="#667f70" stroke-width="3" marker-end="url(#a)">
+    <path d="M370 264H440"/><path d="M750 264H820"/><path d="M1130 264H1200"/>
+    <path d="M1355 345V405H215V453"/>
+    <path d="M370 535H440"/><path d="M750 535H820"/><path d="M1130 535H1200"/>
+  </g>
+  <g font-family="Segoe UI, sans-serif">
+    <g fill="#ffffff" stroke="#d0d7cd" stroke-width="2">
+      <rect x="60" y="183" width="310" height="162" rx="18"/><rect x="440" y="183" width="310" height="162" rx="18"/>
+      <rect x="820" y="183" width="310" height="162" rx="18"/><rect x="1200" y="183" width="310" height="162" rx="18"/>
+      <rect x="60" y="453" width="310" height="162" rx="18"/><rect x="440" y="453" width="310" height="162" rx="18"/>
+      <rect x="820" y="453" width="310" height="162" rx="18"/><rect x="1200" y="453" width="310" height="162" rx="18"/>
+    </g>
+    <g font-size="18" fill="#57766b"><text x="84" y="217">01 / CUSTOMER</text><text x="464" y="217">02 / AI</text><text x="844" y="217">03 / RULES</text><text x="1224" y="217">04 / CUSTOMER</text><text x="84" y="487">05 / PAYMENT</text><text x="464" y="487">06 / OPERATIONS</text><text x="844" y="487">07 / RECORDS</text><text x="1224" y="487">08 / DELIVERY</text></g>
+    <g font-size="26" fill="#263c33"><text x="84" y="264">Upload agreement</text><text x="464" y="264">Extract short JSON</text><text x="844" y="264">Expand + convert</text><text x="1224" y="264">Check the details</text><text x="84" y="535">Confirm payment</text><text x="464" y="535">Process the case</text><text x="844" y="535">Retrieve certificate</text><text x="1224" y="535">Notify + download</text></g>
+    <g font-size="19" fill="#647367"><text x="84" y="303">PDF and case record</text><text x="464" y="303">People, dates, rent, address</text><text x="844" y="303">Validation and option mapping</text><text x="1224" y="303">Editable form and error focus</text><text x="84" y="575">Service fee and duty differ</text><text x="464" y="575">Admin and browser automation</text><text x="844" y="575">Files linked to persistent state</text><text x="1224" y="575">Customer-facing progress</text></g>
+    <text x="62" y="678" font-size="18" fill="#647367">Exceptions return to review. A model reply, payment redirect, or browser click alone is not proof of completion.</text>
+  </g>
+</svg>

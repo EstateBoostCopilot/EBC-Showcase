@@ -1,0 +1,12 @@
+.env
+.env.*
+node_modules/
+tmp/
+.DS_Store
+Thumbs.db
+*.log
+*.db
+*.sqlite*
+*.pdf
+*.pem
+*.key
